@@ -1,0 +1,460 @@
+%PDF-1.4
+%ту╧╙
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R] /Count 9 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 3969 >>
+stream
+q 0.36 0.27 0.91 rg 48 798 499 3 re f Q
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 814 Td (IMPULSO CREATIVO | INFORME TECNICO) Tj ET
+BT /F2 22 Tf 0.09 0.13 0.21 rg 48 738.0 Td (Informe t?cnico) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 638.0 Td (Impulso Creativo: portal interno de pol?ticas de RR. HH.) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 618.0 Td (con RAG, datos personales y reportes) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 588.0 Td (Proyecto: Impulso Creativo ?mbito: mini proyecto acad?mico de RR. HH. para una) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 573.0 Td (agencia de marketing ficticia Tecnolog?as principales: Node.js, Express 5,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 558.0 Td (Sequelize 6, MySQL, React, Vite, LanceDB, Google Drive, Gemini y DeepSeek) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 543.0 Td (Estado del documento: descripci?n t?cnica basada en el repositorio actual) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 475.8 Td (1. Resumen ejecutivo) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 445.8 Td (Impulso Creativo es un portal interno concebido para centralizar consultas de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 430.8 Td (pol?ticas de Recursos Humanos y permitir autoservicio limitado sobre) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 415.8 Td (informaci?n laboral propia. El proyecto separa las dos clases de informaci?n:) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 400.8 Td (las reglas generales viven en documentos indexados mediante recuperaci?n) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 385.8 Td (aumentada por generaci?n \(RAG\), mientras que los datos personales se obtienen) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 370.8 Td (de MySQL y se limitan al usuario autenticado. Esta separaci?n evita que el) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 355.8 Td (modelo generativo sea la fuente de datos individuales.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 332.5 Td (El backend se implementa con Node.js, Express 5, Sequelize 6 y MySQL. El) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 317.5 Td (frontend es una aplicaci?n React creada con Vite que administra el inicio de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 302.5 Td (sesi?n, el env?o autom?tico del token JWT, el chat, las citas de documentos y) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 287.5 Td (las vistas exclusivas de Recursos Humanos. Los modelos cubren colaboradores,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 272.5 Td (saldos de vacaciones, solicitudes, evaluaciones, movimientos, incapacidades,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 257.5 Td (calendario de pagos, consultas de chat y reportes diarios.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 234.3 Td (El agente de pol?ticas consulta una base LanceDB local. El ?ndice se alimenta) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 219.3 Td (de documentos autorizados de Google Drive, admite Markdown, DOCX, PDF, XLSX y) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 204.3 Td (Google Docs, y genera embeddings de 768 dimensiones con Gemini. Despu?s de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 189.3 Td (recuperar los fragmentos relevantes y aplicar un umbral de similitud, DeepSeek) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 174.3 Td (redacta una respuesta limitada al contexto recibido. El backend arma las) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 159.3 Td (citas, de modo que el modelo no controla las fuentes ni los enlaces.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 136.0 Td (El proyecto tambi?n incorpora un analista de reportes diarios para RR. HH.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 121.0 Td (Calcula indicadores agregados desde SQL, los persiste de forma idempotente en) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 106.0 Td (reportes_diarios y genera un resumen ejecutivo. El resumen puede solicitarse a) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 91.0 Td (DeepSeek usando ?nicamente m?tricas agregadas; si la respuesta tiene una) Tj ET
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 35 Td (Documento tecnico | 1 de 9) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 4325 >>
+stream
+q 0.36 0.27 0.91 rg 48 798 499 3 re f Q
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 814 Td (IMPULSO CREATIVO | INFORME TECNICO) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 766.0 Td (estructura o cifras no autorizadas, se descarta y se conserva un resumen) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 751.0 Td (local. El dashboard no debe revelar diagn?sticos, observaciones m?dicas,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 736.0 Td (nombres ni el texto de consultas individuales.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 712.8 Td (La implementaci?n disponible no equivale a?n a una aceptaci?n final completa.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 697.8 Td (La evaluaci?n de 45 preguntas existe como hoja y runner, pero no se ha) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 682.8 Td (ejecutado ni revisado manualmente. Por ello este informe no reporta) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 667.8 Td (porcentajes de acierto, percentiles de latencia ni afirmaciones de rendimiento) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 652.8 Td (no medidas.) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 585.5 Td (2. Alcance funcional) Tj ET
+BT /F2 11.5 Tf 0.30 0.23 0.72 rg 48 542.7 Td (2.1 Agente de pol?ticas) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 523.5 Td (El agente responde consultas generales sobre vacaciones, permisos,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 508.5 Td (incapacidades, jornada, remuneraci?n, beneficios, ingreso y salida, desempe?o,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 493.5 Td (conducta y privacidad. Los documentos de referencia est?n en) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 478.5 Td (backend/documentos/politicas y el informe de investigaci?n del proyecto) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 463.5 Td (complementa su contexto acad?mico. La respuesta debe sustentarse en fragmentos) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 448.5 Td (recuperados desde LanceDB y devolver citas con nombre, secci?n y enlace de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 433.5 Td (Drive.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 410.3 Td (La ruta expl?cita es POST /api/chat/politicas. La ruta general POST) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 395.3 Td (/api/chat/consulta aplica un clasificador local: cuando identifica una) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 380.3 Td (pregunta de datos personales en primera persona, usa el agente MySQL; en los) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 365.3 Td (dem?s casos env?a la consulta al flujo de pol?ticas. Si la recuperaci?n no) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 350.3 Td (obtiene fragmentos por encima de RAG_MIN_SIMILARITY, el sistema se abstiene y) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 335.3 Td (recomienda consultar a RR. HH. Esa decisi?n ocurre antes de llamar a DeepSeek.) Tj ET
+BT /F2 11.5 Tf 0.30 0.23 0.72 rg 48 299.2 Td (2.2 Agente de datos personales) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 280.0 Td (El agente de datos no usa Drive, LanceDB ni DeepSeek. Recibe el usuario desde) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 265.0 Td (el middleware de autenticaci?n y consulta MySQL mediante los modelos) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 250.0 Td (Sequelize. Puede construir una respuesta con perfil laboral, saldo de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 235.0 Td (vacaciones, solicitudes recientes o evaluaci?n programada del usuario) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 220.0 Td (autenticado.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 196.8 Td (El controlador no acepta identidad, rol, nombre, correo o identificador del) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 181.8 Td (colaborador en el cuerpo como fuente de autorizaci?n. Para un usuario de rol) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 166.8 Td (colaborador, preguntas que apuntan a otra persona se rechazan antes de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 151.8 Td (recuperar datos. La consulta queda registrada como dato personal con estado,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 136.8 Td (escalamiento y latencia cuando es posible. El rol rrhh se determina nuevamente) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 121.8 Td (desde MySQL al validar el token y no desde el cliente.) Tj ET
+BT /F2 11.5 Tf 0.30 0.23 0.72 rg 48 85.7 Td (2.3 RR. HH. y dashboard) Tj ET
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 35 Td (Documento tecnico | 2 de 9) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 4200 >>
+stream
+q 0.36 0.27 0.91 rg 48 798 499 3 re f Q
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 814 Td (IMPULSO CREATIVO | INFORME TECNICO) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 766.0 Td (El usuario de RR. HH. puede listar historial paginado de consultas, filtrarlo) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 751.0 Td (por colaborador, consultar perfiles autorizados, revisar reportes individuales) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 736.0 Td (y abrir el dashboard global. Los endpoints /api/rrhh/* est?n protegidos por el) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 721.0 Td (middleware requerirRRHH.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 697.8 Td (El dashboard presenta indicadores agregados del reporte del d?a: ausencias) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 682.8 Td (activas por tipo y departamento, solicitudes pendientes, incapacidades) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 667.8 Td (activas, movimientos y rotaci?n mensual, saldos de vacaciones altos, uso del) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 652.8 Td (chat, temas y consultas sin respuesta. Tambi?n presenta solicitudes pendientes) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 637.8 Td (sin nombres, gr?ficos CSS y tendencia de hasta treinta reportes diarios. Los) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 622.8 Td (datos individuales se reservan para la vista espec?fica de RR. HH. y no se) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 607.8 Td (mezclan con el reporte global.) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 540.5 Td (3. Arquitectura y flujo de datos) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 510.5 Td (La arquitectura se organiza en cuatro l?mites: presentaci?n, API/autorizaci?n,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 495.5 Td (fuentes estructuradas y fuentes documentales. React nunca consulta MySQL,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 480.5 Td (LanceDB, Google Drive ni proveedores de IA de manera directa. Todas las) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 465.5 Td (llamadas pasan por el backend.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 442.3 Td (Х La persona inicia sesi?n en POST /api/auth/login con correo y) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 427.3 Td (contrase?a.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 410.0 Td (Х El backend busca el colaborador, compara bcrypt y firma un JWT HS256 con) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 395.0 Td (sub igual al identificador interno.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 377.8 Td (Х El frontend conserva el token dentro de su sesi?n local y lo adjunta) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 362.8 Td (como Authorization: Bearer ... en las solicitudes protegidas.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 345.5 Td (Х El middleware verifica firma, emisor, audiencia, vencimiento y estado de) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 330.5 Td (la cuenta; luego obtiene de MySQL el rol actualizado.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 313.3 Td (Х El controlador aplica autorizaci?n y selecciona el flujo: RAG, MySQL,) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 298.3 Td (consultas o reporte.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 281.0 Td (Х El resultado y los metadatos de auditor?a se devuelven al frontend. Las) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 266.0 Td (citas se construyen en backend.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 248.8 Td (La separaci?n de datos es intencional. LanceDB contiene contenido de pol?ticas) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 233.8 Td (e embeddings, no saldos ni expedientes personales. MySQL contiene datos) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 218.8 Td (estructurados simulados, pero no sirve como base textual de las pol?ticas.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 203.8 Td (DeepSeek participa solo despu?s de la recuperaci?n RAG o para un resumen) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 188.8 Td (agregado; no decide permisos ni consulta MySQL por s? mismo.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 165.5 Td (La arquitectura contiene el diagrama de componentes, flujos y programadores.) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 98.3 Td (4. Modelo de datos y persistencia) Tj ET
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 35 Td (Documento tecnico | 3 de 9) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 4395 >>
+stream
+q 0.36 0.27 0.91 rg 48 798 499 3 re f Q
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 814 Td (IMPULSO CREATIVO | INFORME TECNICO) Tj ET
+BT /F2 11.5 Tf 0.30 0.23 0.72 rg 48 753.2 Td (4.1 MySQL y Sequelize) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 734.0 Td (Colaborador es la entidad de identidad laboral. Incluye identificador, c?digo,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 719.0 Td (nombre, correo, departamento, puesto, fecha de ingreso, jefe, rol, estado y) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 704.0 Td (password_hash. La contrase?a nunca se persiste en texto plano. Los roles) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 689.0 Td (declarados son colaborador y rrhh; los estados declarados son activo, inactivo) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 674.0 Td (y licencia.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 650.8 Td (SaldoVacaciones guarda un saldo por colaborador y per?odo, con d?as asignados,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 635.8 Td (tomados y disponibles. Solicitud representa vacaciones, permisos o licencias) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 620.8 Td (con fechas, estado y aprobador. EvaluacionDesempeno conserva fecha programada) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 605.8 Td (y estado. MovimientoPersonal mantiene ingresos, salidas y ascensos.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 590.8 Td (Incapacidad tiene campos administrativos de tipo, fecha y d?as, pero el dise?o) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 575.8 Td (del dashboard evita usar entidad u observaci?n administrativa.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 552.5 Td (ConsultaChat registra las interacciones relevantes: persona consultante,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 537.5 Td (pregunta, intenci?n, agente, citas, resultado, escalamiento, latencia y fecha.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 522.5 Td (El historial utiliza asociaciones hacia Colaborador solo en el contexto de RR.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 507.5 Td (HH. ReporteDiario almacena una fila ?nica por fecha, con JSON de indicadores,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 492.5 Td (resumen y origen de generaci?n.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 469.3 Td (Las migraciones no se alteran para la operaci?n actual. Los modelos declaran) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 454.3 Td (los nombres f?sicos de tabla expl?citamente, por ejemplo colaboradores,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 439.3 Td (saldos_vacaciones, solicitudes, consultas_chat y reportes_diarios.) Tj ET
+BT /F2 11.5 Tf 0.30 0.23 0.72 rg 48 403.2 Td (4.2 LanceDB) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 384.0 Td (La tabla local rag_chunks usa vectores Float32 de tama?o fijo 768. Cada) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 369.0 Td (fragmento contiene identificador de Drive, nombre, ruta, MIME type, secci?n,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 354.0 Td (fecha de modificaci?n, hash del fragmento, hash de fuente, texto y vector. La) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 339.0 Td (clave de fragmento deriva del archivo, el contenido de origen y el texto; por) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 324.0 Td (ello una reindexaci?n puede reemplazar de forma segura todos los fragmentos de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 309.0 Td (un archivo modificado.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 285.8 Td (El ?ndice se conserva bajo la ruta configurable LANCEDB_PATH, por defecto) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 270.8 Td (data/lancedb. Esta carpeta est? ignorada por Git. El estado de sincronizaci?n) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 255.8 Td (de Drive y su bloqueo local viven tambi?n dentro de esa zona local, no en) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 240.8 Td (MySQL ni en el repositorio.) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 173.5 Td (5. RAG y gesti?n documental) Tj ET
+BT /F2 11.5 Tf 0.30 0.23 0.72 rg 48 130.7 Td (5.1 Ingesta inicial) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 111.5 Td (El indexador crea un cliente de Google Drive de solo lectura usando la cuenta) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 96.5 Td (de servicio configurada. Recorre recursivamente la carpeta indicada y conserva) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 81.5 Td (la ruta relativa de cada archivo. Para cada MIME type soportado descarga o) Tj ET
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 35 Td (Documento tecnico | 4 de 9) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 5003 >>
+stream
+q 0.36 0.27 0.91 rg 48 798 499 3 re f Q
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 814 Td (IMPULSO CREATIVO | INFORME TECNICO) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 766.0 Td (exporta el contenido: los Google Docs se exportan como texto, DOCX se procesa) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 751.0 Td (con Mammoth, PDF con pdf-parse, XLSX con xlsx, y los archivos Markdown o texto) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 736.0 Td (se interpretan directamente.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 712.8 Td (El texto se normaliza, se separa por encabezados Markdown cuando est?n) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 697.8 Td (disponibles y se fragmenta con solapamiento. La concurrencia es secuencial. El) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 682.8 Td (limitador local estima tokens, respeta una separaci?n m?nima entre solicitudes) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 667.8 Td (Gemini y reintenta errores transitorios 429 o 503 hasta el l?mite configurado.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 652.8 Td (La respuesta de embeddings se valida expl?citamente para asegurar un ?nico) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 637.8 Td (vector num?rico de 768 posiciones.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 614.5 Td (Antes de reemplazar los chunks de un archivo, el indexador completa sus) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 599.5 Td (embeddings y construye la tabla Arrow correspondiente. Si no se producen) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 584.5 Td (batches v?lidos, no borra chunks existentes. Esta propiedad reduce el riesgo) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 569.5 Td (de p?rdida de conocimiento por un fallo de extracci?n o del proveedor de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 554.5 Td (embeddings.) Tj ET
+BT /F2 11.5 Tf 0.30 0.23 0.72 rg 48 518.5 Td (5.2 Recuperaci?n y respuesta) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 499.3 Td (buscarFragmentos valida la pregunta, genera el vector de consulta con la) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 484.3 Td (instrucci?n de b?squeda apropiada para Gemini Embedding 2 y ejecuta b?squeda) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 469.3 Td (vectorial. Convierte distancia a puntuaci?n mediante 1 / \(1 + distancia\),) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 454.3 Td (deduplica resultados por nombre base de archivo para evitar que copias DOCX y) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 439.3 Td (Markdown dominen la respuesta y limita los resultados.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 416.0 Td (El controlador de pol?ticas filtra por RAG_MIN_SIMILARITY, con valor inicial) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 401.0 Td (0.55. La puntuaci?n es una se?al de recuperaci?n, no una probabilidad. Si no) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 386.0 Td (queda ning?n fragmento, responde abstenci?n con citas: [] y no consume) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 371.0 Td (DeepSeek. Si hay contexto, DeepSeek recibe la pregunta y los fragmentos) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 356.0 Td (permitidos con instrucciones de no inventar reglas ni fuentes. Las citas) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 341.0 Td (finales no provienen del modelo: las arma el backend con metadatos RAG.) Tj ET
+BT /F2 11.5 Tf 0.30 0.23 0.72 rg 48 305.0 Td (5.3 Sincronizaci?n incremental de Drive) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 285.8 Td (La sincronizaci?n usa el API de cambios de Drive cuando hay un cursor v?lido.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 270.8 Td (Guarda startPageToken, folderId y los IDs confirmados dentro de la carpeta.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 255.8 Td (Para cada ciclo obtiene una lista recursiva de la carpeta como verificaci?n de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 240.8 Td (alcance, compara fechas de modificaci?n contra LanceDB e indexa solamente) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 225.8 Td (archivos nuevos, modificados o ausentes del ?ndice.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 202.5 Td (Los archivos eliminados o movidos se retiran de LanceDB ?nicamente si su ID) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 187.5 Td (hab?a sido confirmado previamente como administrado por esa carpeta. En una) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 172.5 Td (primera reconciliaci?n, fragmentos sin propiedad verificable se conservan y se) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 157.5 Td (reportan como protegidos. Si el cursor expira, hay cambio de subcarpeta o) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 142.5 Td (falla la continuidad, se ejecuta una reconciliaci?n segura. Un archivo de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 127.5 Td (bloqueo evita operaciones simult?neas entre el scheduler del servidor y el) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 112.5 Td (comando manual.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 89.3 Td (El scheduler intenta sincronizar al arrancar y programa la ejecuci?n diaria a) Tj ET
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 35 Td (Documento tecnico | 5 de 9) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 4541 >>
+stream
+q 0.36 0.27 0.91 rg 48 798 499 3 re f Q
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 814 Td (IMPULSO CREATIVO | INFORME TECNICO) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 766.0 Td (las 06:00, zona America/Costa_Rica. La validaci?n de esta operaci?n contra la) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 751.0 Td (cuenta de servicio, cambios reales y l?mites de Gemini sigue pendiente en el) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 736.0 Td (entorno final.) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 668.8 Td (6. Seguridad, privacidad y autorizaci?n) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 638.8 Td (La seguridad se aplica por capas. Las credenciales se leen desde variables de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 623.8 Td (entorno; .env, el JSON de la cuenta de servicio y LanceDB local est?n) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 608.8 Td (excluidos de Git. El login utiliza bcrypt y no devuelve hash ni secretos. JWT) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 593.8 Td (usa HS256, emisor, audiencia y vencimiento configurables. Tras verificar el) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 578.8 Td (token, el backend vuelve a consultar el colaborador y su estado, por lo que un) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 563.8 Td (rol o estado revocado en la base no depende de un dato almacenado en el) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 548.8 Td (cliente.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 525.5 Td (El agente de datos personales toma identidad y rol ?nicamente de req.usuario,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 510.5 Td (construido por el middleware. Un colaborador no recibe un selector de persona) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 495.5 Td (ni se acepta id_colaborador en la petici?n de chat. Las preguntas de terceros) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 480.5 Td (se rechazan y se registran como tal. RR. HH. tiene endpoints espec?ficos) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 465.5 Td (protegidos y no depende del texto de una consulta para adquirir permisos.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 442.3 Td (La pol?tica de privacidad del repositorio exige minimizar datos, limitar) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 427.3 Td (finalidad y evitar exponer datos m?dicos. Por esa raz?n, las consultas) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 412.3 Td (generales no deben entregar diagn?sticos, certificados, observaciones) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 397.3 Td (administrativas ni informaci?n de terceros. En reportes globales se usan) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 382.3 Td (conteos, tipos y departamentos; no nombres, correos, textos de chat o salarios) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 367.3 Td (individuales. La aplicaci?n conserva datos simulados para el alcance) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 352.3 Td (acad?mico, pero estas restricciones siguen siendo relevantes para una) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 337.3 Td (demostraci?n responsable.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 314.0 Td (DeepSeek se usa en dos l?mites controlados. Para pol?ticas recibe fragmentos) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 299.0 Td (documentales y para reportes recibe solo el JSON de m?tricas agregadas. En el) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 284.0 Td (segundo caso el resumen debe tener entre tres y cinco frases y sus n?meros se) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 269.0 Td (comparan con formatos de las m?tricas permitidas. Si DeepSeek falla, falta la) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 254.0 Td (clave, responde con formato inv?lido o aporta una cifra no autorizada, se usa) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 239.0 Td (un resumen local. Esta validaci?n reduce, pero no elimina, la necesidad de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 224.0 Td (revisi?n humana antes de utilizar informes en una decisi?n real.) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 156.8 Td (7. Analista de reportes diarios) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 126.8 Td (El analista ejecuta consultas SQL agregadas sobre las tablas existentes.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 111.8 Td (Calcula: ausencias activas por tipo y departamento; solicitudes pendientes y) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 96.8 Td (con m?s de tres d?as; incapacidades activas y d?as acumulados del mes;) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 81.8 Td (ingresos, salidas y rotaci?n; saldos de vacaciones superiores a veinte d?as;) Tj ET
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 35 Td (Documento tecnico | 6 de 9) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 4362 >>
+stream
+q 0.36 0.27 0.91 rg 48 798 499 3 re f Q
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 814 Td (IMPULSO CREATIVO | INFORME TECNICO) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 766.0 Td (uso del chat del d?a anterior, resoluci?n sin escalamiento y latencia) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 751.0 Td (promedio; top cinco intenciones; y consultas sin respuesta por intenci?n.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 727.8 Td (Los indicadores se guardan como JSON en reportes_diarios junto con el resumen) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 712.8 Td (ejecutivo. La unicidad de fecha evita duplicados. Si dos procesos intentan) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 697.8 Td (crear el mismo reporte, la excepci?n de unicidad vuelve a cargar el reporte) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 682.8 Td (existente. La generaci?n diaria se programa para las 07:00 de Costa Rica. En) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 667.8 Td (el arranque del backend, la sincronizaci?n de Drive intenta completar primero) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 652.8 Td (y luego se inicia el programador de reportes.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 629.5 Td (El dashboard de React se alimenta de GET /api/rrhh/dashboard. Incluye al menos) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 614.5 Td (seis tarjetas, dos gr?ficos CSS, solicitudes pendientes, resumen, salud del) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 599.5 Td (chat e historial de hasta treinta reportes. El reporte individual por) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 584.5 Td (colaborador sigue separado en GET /api/rrhh/reportes-diarios, con acceso RR.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 569.5 Td (HH. El reporte global no debe confundirse con un expediente individual.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 546.3 Td (La generaci?n programada, el resumen DeepSeek y el dashboard con datos reales) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 531.3 Td (a?n deben probarse en una ejecuci?n local controlada. Es incorrecto asumir que) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 516.3 Td (haya registros hist?ricos o datos visibles simplemente porque el c?digo y las) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 501.3 Td (rutas est?n presentes.) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 434.0 Td (8. Frontend y experiencia de uso) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 404.0 Td (El frontend tiene tres ?reas. El login incluye validaci?n b?sica, mensajes de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 389.0 Td (error y control visual de contrase?a. El chat muestra mensajes de usuario,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 374.0 Td (respuestas, estado de carga y fuentes. Para RR. HH. se habilitan pesta?as de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 359.0 Td (dashboard e historial/reportes. Las solicitudes protegidas se realizan desde) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 344.0 Td (api.js, que agrega el header Authorization cuando existe sesi?n.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 320.8 Td (La interfaz usa una identidad visual editorial limpia con una paleta reducida,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 305.8 Td (tipograf?a de contraste y componentes adaptables a m?vil. El dise?o no) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 290.8 Td (reemplaza controles de backend: ocultar una pesta?a no autoriza una ruta, por) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 275.8 Td (lo que las rutas RR. HH. conservan middleware de rol.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 252.5 Td (El runner de evaluaci?n no est? integrado al frontend. Es una herramienta de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 237.5 Td (backend que puede llenar respuestas y latencias en el libro Excel. Solicita de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 222.5 Td (manera oculta la contrase?a vigente de RR. HH. en ejecuci?n y no la guarda.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 207.5 Td (Las columnas de resultado permanecen para revisi?n humana; una coincidencia) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 192.5 Td (textual superficial no se considera un acierto.) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 125.3 Td (9. Pruebas, evaluaci?n y estado conocido) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 95.3 Td (El repositorio incluye banco-evaluacion-impulso-creativo.xlsx con 45 casos: 25) Tj ET
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 35 Td (Documento tecnico | 7 de 9) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 4645 >>
+stream
+q 0.36 0.27 0.91 rg 48 798 499 3 re f Q
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 814 Td (IMPULSO CREATIVO | INFORME TECNICO) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 766.0 Td (base y 20 propios. Cubre pol?ticas, datos personales propios, rechazo de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 751.0 Td (privacidad, abstenci?n, reportes agregados y rutas de RR. HH. Para cada caso) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 736.0 Td (se define pregunta, tipo, agente esperado, perfil de ejecuci?n, criterio,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 721.0 Td (fuente, respuesta obtenida, resultado y latencia. La hoja calcula porcentaje) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 706.0 Td (de aciertos y P90 cuando se completen los datos.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 682.8 Td (La ejecuci?n no se ha realizado como parte de este estado documentado. Por) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 667.8 Td (consiguiente:) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 644.5 Td (Х No existe porcentaje de aciertos oficial.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 627.3 Td (Х No existe P90 de latencia medido contra la meta de ocho segundos.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 610.0 Td (Х No se puede afirmar que los 45 casos pasen.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 592.8 Td (Х No se ha comprobado el comportamiento de todos los proveedores externos) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 577.8 Td (bajo sus cuotas y tiempos reales.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 560.5 Td (S? se ha validado de forma est?tica la sintaxis de m?dulos modificados y se ha) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 545.5 Td (compilado el frontend con Vite. Estas verificaciones son necesarias, pero no) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 530.5 Td (sustituyen pruebas de integraci?n, pruebas de seguridad, revisi?n de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 515.5 Td (respuestas y monitoreo en ejecuci?n.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 492.3 Td (Un plan de aceptaci?n m?nimo consiste en iniciar backend y frontend, preparar) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 477.3 Td (las dos cuentas de evaluaci?n existentes, ejecutar el workbook, revisar) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 462.3 Td (manualmente cada criterio, clasificar cada resultado y confirmar que la hoja) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 447.3 Td (calcula m?tricas a partir de datos reales. Los casos de privacidad y) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 432.3 Td (abstenci?n requieren especial atenci?n: una respuesta aparentemente ?til puede) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 417.3 Td (ser incorrecta si divulga datos o inventa informaci?n.) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 350.0 Td (10. Riesgos, limitaciones y pr?ximos pasos) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 320.0 Td (El clasificador de intenci?n actual es basado en patrones y no un modelo de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 305.0 Td (clasificaci?n sem?ntico. Por dise?o es simple y auditable, pero puede) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 290.0 Td (necesitar ampliaci?n al crecer el vocabulario de consultas. Las preguntas) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 275.0 Td (personales est?n protegidas adem?s por el alcance de la consulta MySQL, de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 260.0 Td (manera que un falso negativo de clasificaci?n no debe habilitar acceso a) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 245.0 Td (registros ajenos.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 221.8 Td (La detecci?n inicial de objetos eliminados de Drive tiene una precauci?n) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 206.8 Td (deliberada: sin estado previo de propiedad no borra chunks hist?ricos no) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 191.8 Td (verificables. Esto protege informaci?n de otra fuente, pero puede dejar) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 176.8 Td (contenido hu?rfano hasta una revisi?n o reindexaci?n administrada. Las) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 161.8 Td (sincronizaciones siguientes, con estado v?lido, s? pueden retirar IDs) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 146.8 Td (previamente administrados.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 123.5 Td (El uso de DeepSeek y Gemini depende de claves, conectividad, l?mites del) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 108.5 Td (proveedor y respuestas de APIs externas. La aplicaci?n incluye reintentos y) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 93.5 Td (respaldos en algunos flujos, pero requiere observabilidad operativa antes de) Tj ET
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 35 Td (Documento tecnico | 8 de 9) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 3271 >>
+stream
+q 0.36 0.27 0.91 rg 48 798 499 3 re f Q
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 814 Td (IMPULSO CREATIVO | INFORME TECNICO) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 766.0 Td (usarse con una carga real. Los datos del proyecto son simulados; una migraci?n) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 751.0 Td (a informaci?n real requerir?a evaluaci?n legal, controles de privacidad,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 736.0 Td (retenci?n, auditor?a, seguridad de secretos y revisi?n de proveedores.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 712.8 Td (Pr?ximos pasos recomendados:) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 689.5 Td (Х Ejecutar la evaluaci?n de 45 casos y registrar resultados revisados.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 672.3 Td (Х Validar manualmente la primera sincronizaci?n y una eliminaci?n) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 657.3 Td (controlada de un archivo de prueba en Drive.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 640.0 Td (Х Comprobar el scheduler de 06:00 y 07:00 en un entorno controlado con) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 625.0 Td (zona horaria de Costa Rica.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 607.8 Td (Х Agregar pruebas automatizadas para middleware, autorizaci?n de terceros,) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 592.8 Td (umbral RAG y validaci?n de n?meros de reportes.) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 575.5 Td (Х A?adir monitoreo, l?mites de tama?o, registro estructurado sin PII y) Tj ET
+BT /F1 10.6 Tf 0.11 0.15 0.22 rg 48 560.5 Td (estrategia de backup para la base e ?ndice local.) Tj ET
+BT /F2 15 Tf 0.30 0.23 0.72 rg 48 499.3 Td (11. Conclusi?n) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 469.3 Td (Impulso Creativo implementa una arquitectura coherente para separar) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 454.3 Td (conocimiento documental, datos personales y anal?tica agregada. El uso de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 439.3 Td (MySQL para hechos personales, LanceDB para pol?ticas y controles expl?citos de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 424.3 Td (rol ofrece una base m?s segura que un ?nico agente con acceso indiscriminado.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 409.3 Td (Las citas construidas en backend, la abstenci?n por falta de respaldo y la) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 394.3 Td (validaci?n de reportes agregados son controles relevantes frente a alucinaci?n) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 379.3 Td (y divulgaci?n indebida.) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 356.0 Td (El proyecto debe presentarse con precisi?n: dispone de las piezas de) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 341.0 Td (implementaci?n descritas, pero requiere validaci?n integral de proveedores,) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 326.0 Td (programaci?n y evaluaci?n antes de afirmar calidad cuantitativa. La) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 311.0 Td (documentaci?n, el diagrama, el guion de demo y la hoja de evaluaci?n permiten) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 296.0 Td (realizar esa validaci?n de manera trazable sin inventar m?tricas ni exponer) Tj ET
+BT /F1 10.8 Tf 0.11 0.15 0.22 rg 48 281.0 Td (secretos.) Tj ET
+BT /F1 8 Tf 0.35 0.39 0.48 rg 48 35 Td (Documento tecnico | 9 de 9) Tj ET
+endstream
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000176 00000 n 
+0000000246 00000 n 
+0000000321 00000 n 
+0000000389 00000 n 
+0000000535 00000 n 
+0000004556 00000 n 
+0000004702 00000 n 
+0000009079 00000 n 
+0000009227 00000 n 
+0000013480 00000 n 
+0000013628 00000 n 
+0000018076 00000 n 
+0000018224 00000 n 
+0000023280 00000 n 
+0000023428 00000 n 
+0000028022 00000 n 
+0000028170 00000 n 
+0000032585 00000 n 
+0000032733 00000 n 
+0000037431 00000 n 
+0000037579 00000 n 
+trailer
+<< /Size 24 /Root 1 0 R >>
+startxref
+40903
+%%EOF
